@@ -1,0 +1,35 @@
+# .editorconfig pour forcer un style C# strict
+root = true
+
+[*.cs]
+# Utiliser les conventions de style Microsoft
+csharp_style_var_for_built_in_types = false:suggestion
+csharp_style_var_when_type_is_apparent = false:suggestion
+csharp_style_var_elsewhere = false:suggestion
+
+# Accolades sur une nouvelle ligne pour les types et les membres
+csharp_new_line_before_open_brace = all:warning
+
+# Indentation à 4 espaces
+indent_style = space
+indent_size = 4
+
+# Fin de ligne
+end_of_line = crlf
+insert_final_newline = true
+
+# Espaces autour des opérateurs
+csharp_space_around_binary_operators = before_and_after:warning
+
+# Espaces après les virgules
+csharp_space_after_comma = true:warning
+
+# Espaces après les points-virgules
+csharp_space_after_semicolon_in_for_statement = true:warning
+
+# Espaces entre les mots-clés et les parenthèses
+csharp_space_between_method_declaration_parameter_list_parentheses = false:warning
+csharp_space_between_method_call_parameter_list_parentheses = false:warning
+
+# Forcer l'accolade sur une nouvelle ligne pour les records
+csharp_new_line_before_open_brace = all:warning
