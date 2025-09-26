@@ -1,6 +1,6 @@
 name: SonarQube
 on:
-  workflow-run:
+  workflow_run:
     workflows: ["Test & Format"]
     types:
       - completed
