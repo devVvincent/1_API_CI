@@ -37,6 +37,4 @@ app.MapGet("/weatherforecast", () => {
 
 app.Run();
 
-string debug = "test sonarcloud";
-
 public partial class Program { }
